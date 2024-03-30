@@ -6788,46 +6788,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "35938e3e-9652-4720-a894-f124ec4def49")
+			(uuid "35938e3e-9652-4720-a894-f124ec4def4a")
 		)
 		(pin "10"
-			(uuid "2270922d-3e72-478b-8e6f-f97f22dfe1cd")
+			(uuid "2270922d-3e72-478b-8e6f-f97f22dfe1ce")
 		)
 		(pin "2"
-			(uuid "31a4b1e3-252c-434f-930c-1315f73959a2")
+			(uuid "31a4b1e3-252c-434f-930c-1315f73959a3")
 		)
 		(pin "14"
-			(uuid "16c1b741-f0bd-4822-a1d7-49efbc9e759d")
+			(uuid "16c1b741-f0bd-4822-a1d7-49efbc9e759e")
 		)
 		(pin "7"
-			(uuid "e8c7a420-71d2-43a2-b323-1ce2e50d7073")
+			(uuid "e8c7a420-71d2-43a2-b323-1ce2e50d7074")
 		)
 		(pin "11"
-			(uuid "b5b78696-05e5-41ea-a7c4-4351bf38d261")
+			(uuid "b5b78696-05e5-41ea-a7c4-4351bf38d262")
 		)
 		(pin "12"
-			(uuid "0fc96e8a-15e2-467b-9c91-b05adba2c38d")
+			(uuid "0fc96e8a-15e2-467b-9c91-b05adba2c38e")
 		)
 		(pin "13"
-			(uuid "e40c6c98-b308-4db9-9f89-c43418edcb0a")
+			(uuid "e40c6c98-b308-4db9-9f89-c43418edcb0b")
 		)
 		(pin "3"
-			(uuid "21ef038e-e277-44ae-a5b3-564e5d30b434")
+			(uuid "21ef038e-e277-44ae-a5b3-564e5d30b435")
 		)
 		(pin "4"
-			(uuid "3996e0f9-75b5-4e0d-834a-ccb244aa3b3c")
+			(uuid "3996e0f9-75b5-4e0d-834a-ccb244aa3b3d")
 		)
 		(pin "5"
-			(uuid "8af3cc79-4563-43c2-9b3d-a15d6771042b")
+			(uuid "8af3cc79-4563-43c2-9b3d-a15d6771042c")
 		)
 		(pin "6"
-			(uuid "f104b96f-5c29-47dc-b0f6-8fca334f3a48")
+			(uuid "f104b96f-5c29-47dc-b0f6-8fca334f3a49")
 		)
 		(pin "8"
-			(uuid "56c6c350-8575-4d97-abca-e15932b11d56")
+			(uuid "56c6c350-8575-4d97-abca-e15932b11d57")
 		)
 		(pin "1"
-			(uuid "a23bbc1b-c552-43b4-87e1-9e5b4a1b2a17")
+			(uuid "a23bbc1b-c552-43b4-87e1-9e5b4a1b2a18")
 		)
 		(instances
 			(project "sumo"
@@ -7072,7 +7072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-4_P5.08mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03404HBLC_1x04_P3.81mm_Horizontal"
 			(at 63.5 172.72 0)
 			(effects
 				(font
@@ -7831,7 +7831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:Battery_Pads"
 			(at 25.4 68.326 90)
 			(effects
 				(font
@@ -8040,7 +8040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-4_P5.08mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03404HBLC_1x04_P3.81mm_Horizontal"
 			(at 158.75 190.5 0)
 			(effects
 				(font
@@ -8501,7 +8501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W8.61mm_P2.54mm"
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm"
 			(at 123.19 125.73 0)
 			(effects
 				(font
@@ -8642,7 +8642,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:Battery_Pads"
 			(at 112.014 125.73 90)
 			(effects
 				(font
@@ -9539,7 +9539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H5.0_APEM_MJTP1250"
+		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm"
 			(at 39.37 152.4 0)
 			(effects
 				(font
@@ -9889,7 +9889,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:Battery_Pads"
 			(at 27.94 178.816 90)
 			(effects
 				(font
@@ -9984,46 +9984,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "35938e3e-9652-4720-a894-f124ec4def49")
+			(uuid "35938e3e-9652-4720-a894-f124ec4def4b")
 		)
 		(pin "10"
-			(uuid "2270922d-3e72-478b-8e6f-f97f22dfe1cd")
+			(uuid "2270922d-3e72-478b-8e6f-f97f22dfe1cf")
 		)
 		(pin "2"
-			(uuid "31a4b1e3-252c-434f-930c-1315f73959a2")
+			(uuid "31a4b1e3-252c-434f-930c-1315f73959a4")
 		)
 		(pin "14"
-			(uuid "16c1b741-f0bd-4822-a1d7-49efbc9e759d")
+			(uuid "16c1b741-f0bd-4822-a1d7-49efbc9e759f")
 		)
 		(pin "7"
-			(uuid "e8c7a420-71d2-43a2-b323-1ce2e50d7073")
+			(uuid "e8c7a420-71d2-43a2-b323-1ce2e50d7075")
 		)
 		(pin "11"
-			(uuid "b5b78696-05e5-41ea-a7c4-4351bf38d261")
+			(uuid "b5b78696-05e5-41ea-a7c4-4351bf38d263")
 		)
 		(pin "12"
-			(uuid "0fc96e8a-15e2-467b-9c91-b05adba2c38d")
+			(uuid "0fc96e8a-15e2-467b-9c91-b05adba2c38f")
 		)
 		(pin "13"
-			(uuid "e40c6c98-b308-4db9-9f89-c43418edcb0a")
+			(uuid "e40c6c98-b308-4db9-9f89-c43418edcb0c")
 		)
 		(pin "3"
-			(uuid "21ef038e-e277-44ae-a5b3-564e5d30b434")
+			(uuid "21ef038e-e277-44ae-a5b3-564e5d30b436")
 		)
 		(pin "4"
-			(uuid "3996e0f9-75b5-4e0d-834a-ccb244aa3b3c")
+			(uuid "3996e0f9-75b5-4e0d-834a-ccb244aa3b3e")
 		)
 		(pin "5"
-			(uuid "8af3cc79-4563-43c2-9b3d-a15d6771042b")
+			(uuid "8af3cc79-4563-43c2-9b3d-a15d6771042d")
 		)
 		(pin "6"
-			(uuid "f104b96f-5c29-47dc-b0f6-8fca334f3a48")
+			(uuid "f104b96f-5c29-47dc-b0f6-8fca334f3a4a")
 		)
 		(pin "8"
-			(uuid "56c6c350-8575-4d97-abca-e15932b11d56")
+			(uuid "56c6c350-8575-4d97-abca-e15932b11d58")
 		)
 		(pin "1"
-			(uuid "a23bbc1b-c552-43b4-87e1-9e5b4a1b2a17")
+			(uuid "a23bbc1b-c552-43b4-87e1-9e5b4a1b2a19")
 		)
 		(instances
 			(project "sumo"
@@ -10061,7 +10061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-4_P5.08mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03404HBLC_1x04_P3.81mm_Horizontal"
 			(at 90.17 142.24 0)
 			(effects
 				(font
@@ -10703,46 +10703,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "35938e3e-9652-4720-a894-f124ec4def49")
+			(uuid "35938e3e-9652-4720-a894-f124ec4def4c")
 		)
 		(pin "10"
-			(uuid "2270922d-3e72-478b-8e6f-f97f22dfe1cd")
+			(uuid "2270922d-3e72-478b-8e6f-f97f22dfe1d0")
 		)
 		(pin "2"
-			(uuid "31a4b1e3-252c-434f-930c-1315f73959a2")
+			(uuid "31a4b1e3-252c-434f-930c-1315f73959a5")
 		)
 		(pin "14"
-			(uuid "16c1b741-f0bd-4822-a1d7-49efbc9e759d")
+			(uuid "16c1b741-f0bd-4822-a1d7-49efbc9e75a0")
 		)
 		(pin "7"
-			(uuid "e8c7a420-71d2-43a2-b323-1ce2e50d7073")
+			(uuid "e8c7a420-71d2-43a2-b323-1ce2e50d7076")
 		)
 		(pin "11"
-			(uuid "b5b78696-05e5-41ea-a7c4-4351bf38d261")
+			(uuid "b5b78696-05e5-41ea-a7c4-4351bf38d264")
 		)
 		(pin "12"
-			(uuid "0fc96e8a-15e2-467b-9c91-b05adba2c38d")
+			(uuid "0fc96e8a-15e2-467b-9c91-b05adba2c390")
 		)
 		(pin "13"
-			(uuid "e40c6c98-b308-4db9-9f89-c43418edcb0a")
+			(uuid "e40c6c98-b308-4db9-9f89-c43418edcb0d")
 		)
 		(pin "3"
-			(uuid "21ef038e-e277-44ae-a5b3-564e5d30b434")
+			(uuid "21ef038e-e277-44ae-a5b3-564e5d30b437")
 		)
 		(pin "4"
-			(uuid "3996e0f9-75b5-4e0d-834a-ccb244aa3b3c")
+			(uuid "3996e0f9-75b5-4e0d-834a-ccb244aa3b3f")
 		)
 		(pin "5"
-			(uuid "8af3cc79-4563-43c2-9b3d-a15d6771042b")
+			(uuid "8af3cc79-4563-43c2-9b3d-a15d6771042e")
 		)
 		(pin "6"
-			(uuid "f104b96f-5c29-47dc-b0f6-8fca334f3a48")
+			(uuid "f104b96f-5c29-47dc-b0f6-8fca334f3a4b")
 		)
 		(pin "8"
-			(uuid "56c6c350-8575-4d97-abca-e15932b11d56")
+			(uuid "56c6c350-8575-4d97-abca-e15932b11d59")
 		)
 		(pin "1"
-			(uuid "a23bbc1b-c552-43b4-87e1-9e5b4a1b2a17")
+			(uuid "a23bbc1b-c552-43b4-87e1-9e5b4a1b2a1a")
 		)
 		(instances
 			(project "sumo"
@@ -10874,46 +10874,46 @@
 			)
 		)
 		(pin "9"
-			(uuid "35938e3e-9652-4720-a894-f124ec4def49")
+			(uuid "35938e3e-9652-4720-a894-f124ec4def4d")
 		)
 		(pin "10"
-			(uuid "2270922d-3e72-478b-8e6f-f97f22dfe1cd")
+			(uuid "2270922d-3e72-478b-8e6f-f97f22dfe1d1")
 		)
 		(pin "2"
-			(uuid "31a4b1e3-252c-434f-930c-1315f73959a2")
+			(uuid "31a4b1e3-252c-434f-930c-1315f73959a6")
 		)
 		(pin "14"
-			(uuid "16c1b741-f0bd-4822-a1d7-49efbc9e759d")
+			(uuid "16c1b741-f0bd-4822-a1d7-49efbc9e75a1")
 		)
 		(pin "7"
-			(uuid "e8c7a420-71d2-43a2-b323-1ce2e50d7073")
+			(uuid "e8c7a420-71d2-43a2-b323-1ce2e50d7077")
 		)
 		(pin "11"
-			(uuid "b5b78696-05e5-41ea-a7c4-4351bf38d261")
+			(uuid "b5b78696-05e5-41ea-a7c4-4351bf38d265")
 		)
 		(pin "12"
-			(uuid "0fc96e8a-15e2-467b-9c91-b05adba2c38d")
+			(uuid "0fc96e8a-15e2-467b-9c91-b05adba2c391")
 		)
 		(pin "13"
-			(uuid "e40c6c98-b308-4db9-9f89-c43418edcb0a")
+			(uuid "e40c6c98-b308-4db9-9f89-c43418edcb0e")
 		)
 		(pin "3"
-			(uuid "21ef038e-e277-44ae-a5b3-564e5d30b434")
+			(uuid "21ef038e-e277-44ae-a5b3-564e5d30b438")
 		)
 		(pin "4"
-			(uuid "3996e0f9-75b5-4e0d-834a-ccb244aa3b3c")
+			(uuid "3996e0f9-75b5-4e0d-834a-ccb244aa3b40")
 		)
 		(pin "5"
-			(uuid "8af3cc79-4563-43c2-9b3d-a15d6771042b")
+			(uuid "8af3cc79-4563-43c2-9b3d-a15d6771042f")
 		)
 		(pin "6"
-			(uuid "f104b96f-5c29-47dc-b0f6-8fca334f3a48")
+			(uuid "f104b96f-5c29-47dc-b0f6-8fca334f3a4c")
 		)
 		(pin "8"
-			(uuid "56c6c350-8575-4d97-abca-e15932b11d56")
+			(uuid "56c6c350-8575-4d97-abca-e15932b11d5a")
 		)
 		(pin "1"
-			(uuid "a23bbc1b-c552-43b4-87e1-9e5b4a1b2a17")
+			(uuid "a23bbc1b-c552-43b4-87e1-9e5b4a1b2a1b")
 		)
 		(instances
 			(project "sumo"
@@ -11086,7 +11086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-4_P5.08mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03404HBLC_1x04_P3.81mm_Horizontal"
 			(at 92.71 80.01 0)
 			(effects
 				(font
@@ -11298,7 +11298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-4_P5.08mm"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03404HBLC_1x04_P3.81mm_Horizontal"
 			(at 160.02 111.76 0)
 			(effects
 				(font
