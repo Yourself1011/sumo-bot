@@ -7203,7 +7203,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC04")
-		(at 267.97 83.82 270)
+		(at 267.97 83.82 90)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7211,7 +7211,7 @@
 		(dnp no)
 		(uuid "1690a1e5-f6bc-4e80-98e4-9db290c4fcd4")
 		(property "Reference" "U4"
-			(at 277.114 83.82 0)
+			(at 258.826 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7219,7 +7219,7 @@
 			)
 		)
 		(property "Value" "74HC04"
-			(at 274.32 83.82 0)
+			(at 261.62 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
