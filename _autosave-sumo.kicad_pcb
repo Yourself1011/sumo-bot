@@ -4118,10 +4118,10 @@
 				)
 			)
 		)
-		(pad "1" thru_hole rect
+		(pad "1" thru_hole circle
 			(at 0 0 270)
-			(size 1.4 1.4)
-			(drill 0.7)
+			(size 1.778 1.778)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 8 "Net-(T3-Pin_1)")
@@ -6166,10 +6166,10 @@
 				)
 			)
 		)
-		(pad "1" thru_hole rect
+		(pad "1" thru_hole circle
 			(at 0 0 270)
-			(size 1.4 1.4)
-			(drill 0.7)
+			(size 1.778 1.778)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 9 "Net-(T4-Pin_1)")
@@ -10538,10 +10538,10 @@
 				)
 			)
 		)
-		(pad "1" thru_hole rect
+		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.4 1.4)
-			(drill 0.7)
+			(size 1.778 1.778)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 4 "GNDREF")
