@@ -6738,16 +6738,6 @@
 		)
 		(uuid "fecdc465-f566-46f6-a782-71fe1d93c9c2")
 	)
-	(text "webb's schematic says 12->13??\n"
-		(exclude_from_sim no)
-		(at 246.38 84.836 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "174a12e9-8705-49bd-8dd6-f4a3b0e743e9")
-	)
 	(text "motor driver"
 		(exclude_from_sim no)
 		(at 127.508 113.284 0)
@@ -6797,16 +6787,6 @@
 			)
 		)
 		(uuid "91c3369c-f072-4779-be54-603b4f4fcbec")
-	)
-	(text "TODO: add switch(es)"
-		(exclude_from_sim no)
-		(at 136.652 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ae2e3a3b-dbc1-4245-a154-dfc68848e5c0")
 	)
 	(text "Power supply"
 		(exclude_from_sim no)
