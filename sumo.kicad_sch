@@ -4877,22 +4877,28 @@
 		(uuid "59058b06-4361-4047-97b3-beb288791394")
 	)
 	(junction
-		(at 125.73 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c94c0b3-5364-478d-972c-37c319296f7d")
-	)
-	(junction
 		(at 130.81 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67461b9f-2f40-45c2-9e54-d62736e69c07")
 	)
 	(junction
+		(at 128.27 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7746a47a-a33f-495f-89cc-12520c0a4e07")
+	)
+	(junction
 		(at 52.07 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79187618-86df-41b9-80ce-f2f1f95e9b4f")
+	)
+	(junction
+		(at 125.73 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7df50aea-124f-4d2a-b248-be1902c2efac")
 	)
 	(junction
 		(at 267.97 93.98)
@@ -4911,12 +4917,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8cad4264-551a-40de-9220-e51184179a21")
-	)
-	(junction
-		(at 125.73 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f3f456d-b7a9-466f-afcb-bd0bd4a7c7d6")
 	)
 	(junction
 		(at 186.69 40.64)
@@ -5130,6 +5130,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 171.45) (xy 128.27 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08384491-6e41-44d4-8d7f-d948819a7eea")
+	)
+	(wire
+		(pts
 			(xy 158.75 181.61) (xy 158.75 185.42)
 		)
 		(stroke
@@ -5160,6 +5170,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 153.67) (xy 128.27 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b0f547e-f23e-4fff-8219-b2b1ca7287db")
+	)
+	(wire
+		(pts
 			(xy 24.13 30.48) (xy 24.13 36.83)
 		)
 		(stroke
@@ -5187,16 +5207,6 @@
 			(type default)
 		)
 		(uuid "11d76670-68d1-4568-95b3-b8749c36a9ee")
-	)
-	(wire
-		(pts
-			(xy 125.73 166.37) (xy 125.73 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16dd56b7-83aa-49d0-bbb1-feb849799f07")
 	)
 	(wire
 		(pts
@@ -5600,7 +5610,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 161.29) (xy 125.73 138.43)
+			(xy 125.73 161.29) (xy 125.73 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a661b0c-6a6d-4275-9dbe-3b5e50103149")
+	)
+	(wire
+		(pts
+			(xy 128.27 138.43) (xy 128.27 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6050,6 +6070,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 138.43) (xy 128.27 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a608fe76-d744-4c57-8079-0234dca71f8d")
+	)
+	(wire
+		(pts
 			(xy 255.27 26.67) (xy 267.97 26.67)
 		)
 		(stroke
@@ -6237,6 +6267,16 @@
 			(type default)
 		)
 		(uuid "c2e58d69-2427-480a-8aca-a142d4ba0b05")
+	)
+	(wire
+		(pts
+			(xy 125.73 153.67) (xy 128.27 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c476e21f-8fc0-418d-8ca2-e3253a4a24b8")
 	)
 	(wire
 		(pts
@@ -6530,16 +6570,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 161.29) (xy 125.73 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e82fe616-885b-4010-8288-12de58aa8827")
-	)
-	(wire
-		(pts
 			(xy 186.69 35.56) (xy 186.69 40.64)
 		)
 		(stroke
@@ -6590,16 +6620,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 171.45) (xy 125.73 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f202d41a-6acd-4289-b442-060d03700e2f")
-	)
-	(wire
-		(pts
 			(xy 86.36 30.48) (xy 86.36 33.02)
 		)
 		(stroke
@@ -6607,16 +6627,6 @@
 			(type default)
 		)
 		(uuid "f2233aec-f04a-4567-a17c-f5b467383d33")
-	)
-	(wire
-		(pts
-			(xy 52.07 138.43) (xy 125.73 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f298047b-2e84-4573-a3dd-01a6ff23660d")
 	)
 	(wire
 		(pts
@@ -6823,7 +6833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3386F_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical"
 			(at 238.76 50.8 0)
 			(effects
 				(font
@@ -7592,6 +7602,76 @@
 			(project "sumo"
 				(path "/b3326479-b174-4648-80e1-7cc32064c8ef"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 125.73 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "235e307a-2e42-4ff2-b678-d4d02f2d08a1")
+		(property "Reference" "R19"
+			(at 128.27 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 128.27 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 126.746 157.734 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 125.73 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "66c751cf-1426-4a68-9e97-ad9d6b103544")
+		)
+		(pin "1"
+			(uuid "b9406ce9-1ce1-4d3f-8781-b79011093b42")
+		)
+		(instances
+			(project "sumo"
+				(path "/b3326479-b174-4648-80e1-7cc32064c8ef"
+					(reference "R19")
 					(unit 1)
 				)
 			)
