@@ -7607,7 +7607,7 @@
 				)
 			)
 		)
-		(property "Value" "230"
+		(property "Value" "220"
 			(at 252.984 81.534 90)
 			(effects
 				(font
@@ -8097,7 +8097,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "230"
+		(property "Value" "220"
 			(at 26.67 27.9399 0)
 			(effects
 				(font
@@ -10065,7 +10065,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "230"
+		(property "Value" "220"
 			(at 71.12 27.9399 0)
 			(effects
 				(font

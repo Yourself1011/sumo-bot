@@ -10066,7 +10066,7 @@
 				)
 			)
 		)
-		(property "Value" "230"
+		(property "Value" "220"
 			(at 3.81 2.37 90)
 			(layer "F.Fab")
 			(uuid "dd2970fd-c783-45d4-aee0-40deb6d97cd2")
@@ -14336,7 +14336,7 @@
 				)
 			)
 		)
-		(property "Value" "230"
+		(property "Value" "220"
 			(at 3.81 2.37 -90)
 			(layer "F.Fab")
 			(uuid "1eb2cf09-3427-44be-a745-75a047a1282b")
@@ -16365,7 +16365,7 @@
 				)
 			)
 		)
-		(property "Value" "230"
+		(property "Value" "220"
 			(at 3.81 2.37 -90)
 			(layer "F.Fab")
 			(uuid "77c1359b-5c0f-446f-a5c8-de0671ed3fac")
@@ -18049,6 +18049,14 @@
 		(uuid "775665cd-8b41-4020-8483-8592d657fc42")
 	)
 	(segment
+		(start 134.62 47.03)
+		(end 134.62 44.45)
+		(width 1.016)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "7a3670c4-4c78-4c80-bf4d-a0c7e737674a")
+	)
+	(segment
 		(start 179.0954 87.6046)
 		(end 138.4046 87.6046)
 		(width 1.016)
@@ -18215,6 +18223,14 @@
 		(layer "F.Cu")
 		(net 4)
 		(uuid "c32cdbcc-75a4-43a5-97f6-fd1bb831e455")
+	)
+	(segment
+		(start 135.89 48.3)
+		(end 134.62 47.03)
+		(width 1.016)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "c4725cb6-8d77-407d-b02b-57bd77e914cd")
 	)
 	(segment
 		(start 186.69 120.65)
