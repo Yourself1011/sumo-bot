@@ -1,0 +1,103 @@
+#chip 16f628a
+
+#define LMF PortB.0
+#define LMB PortB.1
+#define RMB PortB.2
+#define RMF PortB.3
+
+#define RBD PortA.0
+#define RLD PortA.1
+#define LLD PortA.2
+#define LBD PortA.3
+
+dir RMF out
+dir RMB out
+dir LMB out
+dir LMF out
+
+dir RBD in
+dir RLD in
+dir LLD in
+dir LBD in
+
+InitTimer0 Osc, PS0_2
+
+' 0 - normal move forward/attack botState
+' 1 - turning LFT from line
+' 2 - turning RGHT from line
+dim botState as byte
+botState = 0
+
+do
+    if RLD ON then
+        goSub BACK
+        wait 10 ms
+        setTimer 0, 0
+        botState = 2
+    else if LLD ON then
+        goSub BACK
+        wait 10 ms
+        setTimer 0, 0
+        botState = 1
+    else if (RBD OFF) and (LBD OFF) then
+        if botState = 0 then
+            goSub FWD
+        else if Timer0() then
+            botState = 0
+            goSub FWD
+        else if botState = 1 then
+            goSub LFT
+        else if botState = 2 then
+            goSub RGHT
+        end if
+
+    else if (RBD ON) and (LBD ON) then
+        goSub FWD
+    else if RBD ON then
+        goSub LFT
+    else if LBD ON then
+        goSub RGHT
+    end if
+loop
+
+sub FWD
+    RMF = ON
+    RMB = OFF
+    LMF = ON
+    LMB = OFF
+end sub
+
+sub FR
+    RMF = OFF
+    RMB = OFF
+    LMF = ON
+    LMB = OFF
+end sub
+
+sub FL
+    RMF = ON
+    RMB = OFF
+    LMF = OFF
+    LMB = OFF
+end sub
+
+sub BACK
+    RMF = OFF
+    RMB = ON
+    LMF = OFF
+    LMB = ON
+end sub
+
+sub LFT
+    RMF = OFF
+    RMB = ON
+    LMF = ON
+    LMB = OFF
+end sub
+
+sub RGHT
+    RMF = ON
+    RMB = OFF
+    LMF = OFF
+    LMB = ON
+end sub
