@@ -1,9 +1,9 @@
 #chip 16f628a
 
-#define LMF PortB.0
-#define LMB PortB.1
-#define RMB PortB.2
-#define RMF PortB.3
+#define RMB PortB.0
+#define RMF PortB.1
+#define LMF PortB.2
+#define LMB PortB.3
 
 #define RBD PortA.0
 #define RLD PortA.1

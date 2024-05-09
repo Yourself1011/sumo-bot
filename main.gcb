@@ -1,9 +1,9 @@
 #chip 16f628a
 
-#define LMF PortB.0
-#define LMB PortB.1
-#define RMB PortB.2
-#define RMF PortB.3
+#define RMB PortB.0
+#define RMF PortB.1
+#define LMF PortB.2
+#define LMB PortB.3
 
 #define RBD PortA.0
 #define RLD PortA.1
@@ -20,30 +20,34 @@ dir RLD in
 dir LLD in
 dir LBD in
 
-InitTimer0 Osc, PS0_2
+InitTimer1 Osc, PS0_256
+on interrupt Timer1Overflow call timerOverflow
 
 ' 0 - normal move forward/attack botState
 ' 1 - turning LFT from line
 ' 2 - turning RGHT from line
 dim botState as byte
+dim overflow as bit
 botState = 0
+overflow = 0
 
 do
-    if RLD ON then
+    if RLD = 0 then
         goSub BACK
-        wait 10 ms
-        setTimer 0, 0
+        wait 250 ms
+        setTimer 1, 0
         botState = 2
-    else if LLD ON then
+    else if LLD = 0 then
         goSub BACK
-        wait 10 ms
-        setTimer 0, 0
+        wait 250 ms
+        setTimer 1, 0
         botState = 1
-    else if (RBD OFF) and (LBD OFF) then
+    else if (RBD = 0) and (LBD = 0) then
         if botState = 0 then
             goSub FWD
-        else if Timer0() then
+        else if (Timer1() > 16) or (overflow = 1) then 'change this to change turn amount
             botState = 0
+            overflow = 0
             goSub FWD
         else if botState = 1 then
             goSub LFT
@@ -51,14 +55,18 @@ do
             goSub RGHT
         end if
 
-    else if (RBD ON) and (LBD ON) then
+    else if (RBD = 1) and (LBD = 1) then
         goSub FWD
-    else if RBD ON then
-        goSub LFT
-    else if LBD ON then
-        goSub RGHT
+    else if RBD = 1 then
+        goSub FL
+    else if LBD = 1 then
+        goSub FR
     end if
 loop
+
+sub timerOverflow
+    overflow = 1
+end sub
 
 sub FWD
     RMF = ON
