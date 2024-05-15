@@ -68,9 +68,9 @@ do
 
     else if (RBD = 0) and (LBD = 0) then
         goSub FWD
-    else if RBD = 1 then
+    else if RBD = 0 then
         goSub FL
-    else if LBD = 1 then
+    else if LBD = 0 then
         goSub FR
     end if
     // overflow = overflow + 1
