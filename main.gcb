@@ -1,14 +1,16 @@
 #chip 16f628a
 
-#define RMB PortB.0
-#define RMF PortB.1
-#define LMF PortB.2
-#define LMB PortB.3
+#define LMB PortB.0
+#define LMF PortB.1
+#define RMF PortB.2
+#define RMB PortB.3
 
 #define RBD PortA.0
 #define RLD PortA.1
 #define LLD PortA.2
 #define LBD PortA.3
+
+#define BTN PortA.4
 
 dir RMF out
 dir RMB out
@@ -20,43 +22,85 @@ dir RLD in
 dir LLD in
 dir LBD in
 
-InitTimer1 Osc, PS0_16
-setTimer 1, 0
+dir BTN in
+
+InitTimer0 Osc, PS0_4
+setTimer 0, 0
 startTimer 1
 
-on interrupt Timer1Overflow call timerOverflow
+on interrupt Timer0Overflow call timerOverflow
 
 ' 0 - normal move forward/attack botState
 ' 1 - turning LFT from line
 ' 2 - turning RGHT from line
 dim botState as byte
-dim overflow as byte
+dim overflow as word
+dim presses as byte
+dim pressed as bit
 botState = 0
 overflow = 0
+presses = 0
+pressed = 0
 
-wait 5000 ms
+RMF = OFF
+RMB = OFF
+LMF = OFF
+LMB = OFF
+
+' wait 5 s
+
+' if (SW1 = 0) and (SW2 = 1) then
+'     goSub RGHT
+'     wait 1000 ms
+' else if (SW1 = 0) and (SW2 = 0) then
+'     goSub RGHT
+'     wait 500 ms
+' else if (SW1 = 1) and (SW2 = 0) then
+'     goSub LFT
+'     wait 500 ms
+' end if
+
+do until overflow > 5000
+    if (BTN = 1) and (pressed = 0) then
+        pressed = 1
+        presses = presses + 1
+    else if (BTN = 0) then
+        pressed = 0
+    end if
+loop
+
+overflow = 0
+
+if presses = 0 then
+    goSub RGHT
+    wait 650 ms
+else if presses = 1 then
+    goSub LFT
+    wait 650 ms
+else
+    goSub RGHT
+    wait 1300 ms
+end if
 
 do
-    if RLD = 0 then
-        goSub BACK
-        botState = 2
-        wait 500 ms
-        clearTimer 1
-        overflow = 0
-        goSub LFT
-        // wait 1000 ms
-    else if LLD = 0 then
-        goSub BACK
-        botState = 1
-        wait 500 ms
-        clearTimer 1
-        overflow = 0
-        goSub RGHT
-        // wait 1000 ms
-    else if (RBD = 1) and (LBD = 1) then
-        if botState = 0 then
+    if (RBD = 1) and (LBD = 1) then
+        if RLD = 0 then
+            goSub BACK
+            botState = 1
+            wait 500 ms
+            clearTimer 0
+            overflow = 0
+            goSub LFT
+        else if LLD = 0 then
+            goSub BACK
+            botState = 2
+            wait 500 ms
+            clearTimer 0
+            overflow = 0
+            goSub RGHT
+        else if botState = 0 then
             goSub FWD
-        else if overflow > 128 then 'change this to change turn amount
+        else if overflow > 1000 then 'change this to change turn amount
             botState = 0
             overflow = 0
             goSub FWD
